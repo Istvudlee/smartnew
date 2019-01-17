@@ -1,0 +1,1915 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+  /* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Open Sans'
+}
+  header {
+    min-width: 1170px;
+    background: rgba(0, 0, 0, 0) url(img/6.jpg) repeat-x scroll center top;
+    height: 643px;
+    position: relative;
+    background-size: cover;
+ }
+ #fonhead {
+    min-width: 1170px;
+    height: 643px;
+     background: rgba(0, 0, 0, .5);
+ }
+/*--------------------------------Шапка------------------------------*/
+ #topblock >#logo, #menuall, #phzv {
+    display: table-cell;
+    vertical-align: top;
+ }
+ #topblock {
+    padding-top: 5px;
+    width: 1170px;
+    margin: 0 auto;
+    height: 90px;
+
+ }
+ #logo {
+    padding-top: 5px;
+    width: 170px;
+    height: 60px;
+ }
+ #imglg {
+    padding-top: 5px;
+    display: block;
+    margin-left: 10px;
+    width: 140px;
+    height: 60px;
+    background: url(img/logo2.png) no-repeat;
+ } 
+#textl {
+    width: 150px;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 13px;
+}
+/*----------------------------Меню--------------------------*/
+#menuall {
+    padding-left: 20px;
+    width: 730px;
+    height: 60px;
+}
+.menubl {
+    padding-top: 10px;
+    display: table-cell;
+    vertical-align: top;
+    width: 125px;
+}
+.menubl a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+}
+.menubl a:hover {
+    border-bottom: 1px solid #1996ce;
+    color: #1996ce;
+}
+.menubl p {
+    width: 100px;
+    padding-left: 5px;
+    padding-top: 3px;
+    color: #e0dfdf;
+    font-size: 13px;
+    font-style: italic;
+}
+/*----------------------------------Телефон-----------------------*/
+#phone {
+ margin-top: 5px;
+ padding-top: 2px;
+ padding-left: 37px;
+
+ /*background: url(img/smartphone.png) 0px 0px no-repeat;*/
+
+}
+#phone a {
+    font-weight: 400;
+    font-size: 23px;
+    text-decoration: none;
+    color: #1996ce;
+}
+#obz {
+    padding-left: 37px;
+} 
+#obz a {
+ color: #fff;
+ text-decoration: none;
+ border-bottom: 1px solid #fff;
+}
+#obz a:hover {
+ border-bottom: none;
+}
+#adrnovm {
+    font-size: 13px;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 37px;
+}
+
+/*------------------------------Инфа на слайде----------------------*/
+#middleblock {
+    width: 1170px;
+    margin: 0 auto;
+
+}
+#textmid {
+    text-align: center;
+    margin-top: 20px;
+}
+#textmid h1 {
+    margin: 0 auto;
+    width: 1000px;
+    padding-top: 5px;
+    color: #fff;
+    font-size: 68px;
+    text-transform: uppercase;
+}
+#textmid  p { 
+    padding-top: 20px;
+    margin: 10px auto;
+    width: 520px;
+    height: 180px;
+    color: #fff;
+    font-size: 18px;
+    background: url(img/bg-promo-border1.png) no-repeat;
+}
+/*------------------------Нижний блок----------------------------*/
+#bottomblock {
+    width: 1170px;
+    margin: 40px auto;
+}
+#blsetivide {
+    width: 1170px;
+display: table-cell;
+vertical-align: top;
+
+}
+#video {
+    margin-left: 35px;
+}
+#video > div {
+    display: table-cell;
+    vertical-align: top;
+}
+#textv {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    width: 180px;
+    color: #fff;
+}
+#video, #soc, #callb {
+    display: inline-block;
+    vertical-align: top;
+}
+#callb {
+ margin-top: 20px;
+ margin-left: 140px;
+}
+#callb a {
+ background: url(img/operator2.png) 10px 10px no-repeat  ;
+ border: 1px solid #1996ce;
+ width: 232px;
+ display: block;
+ padding: 12px;
+ padding-left: 42px;
+ color: #1996ce;
+ text-transform: uppercase;
+ text-decoration: none;
+}
+#callb a:hover {
+ background: #1996ce url(img/operator.png) 10px 10px no-repeat;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+#soc {
+ margin-top: 10px;
+ width: 140px;
+ margin-left: 180px;
+ color: #fff;
+}
+#soc a {
+    padding-left: 14px;
+}
+#soc a img {
+    padding-top: 8px;
+    width: 40px;
+}
+/*-------------------------Что, как работает--------------------*/
+#block1_what {
+    width: 1170px;
+    margin: 25px auto;
+} 
+
+.line {
+    margin: 0 auto;
+    width: 90px;
+    border-bottom: 1px solid #1996ce;
+}
+.podzg {
+    text-align: center;
+    padding-bottom: 6px;
+}
+#content_what h2{
+    margin: 0;
+    font-weight: 400;
+    text-align: center;
+    font-size:36px;
+    text-transform: uppercase;
+}
+.imgwbl1 {
+    margin: 0 auto;
+    width: 120px;
+    height: 290px;
+    background: url(img/ipad3.png) no-repeat;
+}
+.wtbl, #arrow {
+    display: inline-block;
+    vertical-align: top;
+}
+.wtbl {
+    margin-left: 20px;
+    width: 340px;
+}
+.imgwbl2 {
+     margin: 0 auto;
+    width: 300px;
+    height: 290px;
+    background: url(img/modul.png) no-repeat;
+} 
+.imgwbl3 {
+     margin: 0 auto;
+    width: 300px;
+    height: 290px;
+    background: url(img/home1.png) no-repeat;
+}
+.podimg {
+    text-align: center;
+} 
+#arrow {
+    background: url(img/link.png) 0px 145px no-repeat;
+    width: 24px;
+    height: 290px;
+}
+#whattext {
+    margin-top: 25px;
+}
+/*--------------------------------Возможности---------------------*/
+#blockvozmud {
+    width: 1170px;
+    margin: 25px auto;
+}
+#vozmbl {
+    margin-top: 50px;
+}
+#blockvozmud h2{
+    margin: 0;
+    font-weight: 400;
+    text-align: center;
+    font-size:36px;
+    text-transform: uppercase;
+}
+#imgvom {
+    margin-top:49px;
+    width: 300px;
+    height: 412px;
+    background: url(img/vozm2.png) no-repeat;
+}
+#imgvom, #spvozm {
+    display: inline-block;
+    vertical-align: top;
+}
+#blockupdop {
+    margin: 35px auto;
+    width: 1170px;
+    background: #1996ce;
+    height: 260px;
+}
+#bordop {
+    top: 8px;
+    position: relative;
+    width: 1152px;
+    height: 242px;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    color: #fff;
+}
+#updoptext h4 {
+    margin: 0;
+    padding-top: 18px;
+    padding-left: 45px;
+    font-size: 32px;
+    font-weight: 300;
+}
+#updoptext p {
+    padding-left: 45px;
+}
+#updoptext {
+    width: 720px;
+}
+#updoptext, #ikonkidop, .ikibl {
+    display: inline-block;
+    vertical-align: top;
+}
+#ikonkidop {
+    margin-left: 50px;
+    padding-top: 4px;
+    width: 360px;
+}
+.ikibl {
+    margin-top: 30px;
+    text-align: center;
+    width: 100px;
+}
+.ikimg {
+
+}
+.ikimg img {
+    width: 40px;
+}
+/*-------------Возм иконки------------*/
+#spvozm {
+
+}
+#spvozm h5{
+    padding-bottom: 8px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.vozm {
+    text-align: center;
+    margin-left: 15px;
+    display: inline-block;
+    vertical-align: top;
+    width: 190px;
+    height: 500px;
+}
+.electro {
+    color: #1996ce;
+}
+.security {
+   color: #f47c20;
+}
+.light {
+  color: #ffd601;
+}
+.audio {
+  color: #1fca02;
+}
+.vozm a {
+    margin-top: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    line-height: 32px;
+    height: 34px;
+    text-align:left;
+    vertical-align: middle;
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.electro a {
+    color: #1996ce;
+    border: 1px solid #1996ce;
+}
+.electro a:hover {
+    border: 1px dashed #1996ce;
+}
+.light a {
+    color: #ffd601;
+    border: 1px solid #ffd601;
+}
+.light a:hover {
+    border: 1px dashed #ffd601;
+}
+.security a {
+    color: #f47c20;
+    border: 1px solid #f47c20;
+}
+.security a:hover {
+    border: 1px dashed #f47c20;
+}
+.audio a {
+    color: #1fca02;
+    border: 1px solid #1fca02;
+}
+.audio a:hover {
+    border: 1px dashed #1fca02;
+}
+#pravl, #prava {
+    line-height:16px;
+    width: 140px;
+}
+.vozm img{
+    width: 30px;
+    height: 30px;
+    padding-left: 5px;
+}
+.vozm p {
+    margin: 0;
+    padding-left: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*-----------------------Блок Комплеткты-----------------------*/
+/*-----------------------Блок Комплеткты-----------------------*/
+#blockkomplekt {
+    width: 1170px;
+    margin: 0 auto;
+}
+#blockkomplekt h3 {
+    margin: 0;
+     font-weight: 400;
+    text-align: center;
+    font-size:36px;
+    text-transform: uppercase;
+}
+.kmp {
+    width: 1170px;
+    height: 500px;   
+}
+.komop1, .komop2, .komop3, .komop4, .komimg {  
+    width: 585px;
+    height: 500px;
+    display: table-cell;
+    vertical-align: top;
+}
+.komop1 {
+    background: #1996ce;
+}
+.komop2 {
+    background: #ffd601;
+}
+.komop3 {
+    background: #f47c20;
+}
+.komop4 {
+    background: #1fca02;
+}
+
+.ki1 {
+    background: url(img/new-york3.jpg) no-repeat;
+}
+.ki1b {
+    background: url(img/new-york3b.jpg) no-repeat;
+}
+.ki2 {
+    background: url(img/door.jpg) no-repeat;
+}
+.ki3 {
+    background: url(img/door2.jpg) no-repeat;
+}
+.ki4 {
+    background: url(img/blum2.jpg) no-repeat;
+}
+.ki4b {
+    background: url(img/blum2b.jpg) no-repeat;
+}
+#trxtkom {
+    color: #fff;
+    margin: 9px auto;
+    width: 565px;
+    height: 480px;
+    border: 1px solid #fff;
+}
+.zaglkom {
+ text-transform: uppercase;
+ margin-left: 45px;
+ margin-top: 15px;
+}
+.zaglkom h5 {
+ font-size: 14px;
+ font-weight: 600;
+}
+.zaglkom h6 {
+ font-weight: 300;
+ font-size: 38px
+}
+.opiskom {
+ margin-top: 5px;
+ margin-left: 45px;
+ width: 512px;
+ font-size: 20px;
+ font-weight: 300;
+}
+.opiskom p {
+    font-size: 18px;
+}
+.opiskom li {
+ margin-left: 30px;
+ font-size: 17px;
+ padding-right: 4px;
+}
+.predp {
+  font-size: 13px !important;
+}
+.cenak {
+    padding-top: 10px;
+}
+.zvezd {
+    padding-top: 7px;
+    font-size: 13px !important;
+}
+.ikonkop {
+ width: 500px;
+ margin-left: 40px;
+}
+.ikonkop img {
+    margin-top: 20px;
+    width: 28px;
+    height: 28px;
+}
+.ml {
+    margin-left: 10px;
+}
+.buttonkom {
+    margin-top: 15px;
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    width: 304px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    padding: 8px;
+    margin-left: 45px;
+    text-decoration: none;
+}
+.buttonkom:hover {
+   border: 1px dashed #fff;
+
+}
+
+/*-----------------------Блок Комплеткты-----------------------*/
+#blokwedo {
+    width: 1170px;
+    margin: 35px auto;  
+}
+#blokwedo h3 {
+    margin: 0;
+    font-weight: 400;
+    text-align: center;
+    font-size:36px;
+    text-transform: uppercase;
+}
+#logowedo div{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 35px;
+}
+#logowedo img {
+    filter: grayscale(1);
+    transition: all .1s linear;
+    webkit-filter: grayscale(1);
+    webkit-transition: all .1s linear;
+}
+#logowedo img:hover {
+    filter: none;
+    webkit-filter:none;
+}
+/*-----------------------Блок Гарантия-----------------------*/
+#blockgarant{
+    margin: 50px auto;
+    width: 1170px;
+    background: #1996ce;
+    height: 300px;
+}
+#garant{
+    top: 8px;
+    position: relative;
+    width: 1152px;
+    height: 282px;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    color: #fff;
+}
+#garanttext h4 {
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 45px;
+    font-size: 32px;
+    font-weight: 300;
+}
+#garanttext p {
+    padding-left: 45px;
+}
+#garanttext {
+    width: 770px;
+}
+.ikg {
+    margin-left: 25px;
+    font-size: 15px;
+    margin-top: 24px;
+    width: 140px;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.igimg img{
+    width: 40px;
+    height: 40px;
+}
+#garanttext, #ikonkigarant {
+    display: inline-block;
+    vertical-align: top;
+}
+#ikonkigarant {
+    width: 350px;
+}
+#garanttext ul {
+    width: 620px;
+    margin: 25px auto;
+}
+#garanttext ul li {
+    list-style: circle;
+    font-size: 15px;
+}
+/*-----------------------Сертификаты-----------------------*/
+#blockwork {
+    width: 1170px;
+    margin: 25px auto;
+}
+#blockwork h3 {
+    margin: 0;
+     font-weight: 400;
+    text-align: center;
+    font-size:36px;
+    text-transform: uppercase;
+}
+#work {
+    margin-top: 35px;
+}
+.wfso {
+  width: 358px;
+}
+.wrkso {
+    display: inline-block;
+    vertical-align: top;
+}
+.wf {
+   width: 358px;
+}
+.wrk {
+    display: inline-block;
+    vertical-align: top;
+}
+.nameruk {
+    margin: 0 auto;
+    position: relative;
+    bottom: 22px;
+    width: 280px;
+    text-align: center;
+    background: #1996ce;
+    font-size: 16px;
+    font-weight: 400;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    //border-radius: 3px;
+    //box-shadow: 1.5px 2.6px 33px rgba(0,0,0,0.1);
+}
+.sert {
+    width: 160px;
+}
+.mtser {
+  margin-top: 4px;
+}
+.nameser {
+    margin: 0 auto;
+    position: relative;
+    bottom: 22px;
+    width: 130px;
+    text-align: center;
+    background: #1996ce;
+    font-size: 16px;
+    font-weight: 400;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    //border-radius: 3px;
+    //box-shadow: 1.5px 2.6px 33px rgba(0,0,0,0.1);
+}
+.karta {
+    margin-left: 4px;
+    width: 630px;
+}
+.namekar {
+    margin: 0 auto;
+    position: relative;
+    bottom: 18px;
+    width: 140px;
+    text-align: center;
+    background: #1996ce;
+    font-size: 16px;
+    font-weight: 400;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    //border-radius: 3px;
+    //box-shadow: 1.5px 2.6px 33px rgba(0,0,0,0.1);
+}
+.mailk,.phonek,.adrek,.rwo24 {
+    display: inline-block;
+    vertical-align: top;
+} 
+.phonek a {
+    padding-top: 4px;
+    margin-left: 28px;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    height: 34px;
+    background: url(img/smartphonek1.png) 0px 0px no-repeat;
+    padding-left: 38px;
+}
+.phonemob {
+width: 168px;
+margin: 0 auto;
+}
+.phonemob a {
+    padding-top: 2px;
+
+    text-decoration: none;
+    color: #000;
+    display: block;
+    height: 24px;
+    background: url(img/smartphone24.png) 0px 0px no-repeat;
+    padding-left: 28px;
+}
+.phonemob2 {
+width: 170px;
+margin: 0 auto;
+}
+.phonemob2 a {
+    padding-top: 2px;
+
+    text-decoration: none;
+    color: #000;
+    display: block;
+    height: 24px;
+    background: url(img/smartphone24.png) 0px 0px no-repeat;
+    padding-left: 28px;
+}
+.mailk {
+    padding-top: 4px;
+    margin-left: 28px;
+    background: url(img/mail.png) 0px 0px no-repeat;
+    padding-left: 38px;
+    height: 34px;
+}
+.adrek {
+    padding-top: 4px;
+    margin-top: 20px;
+    background: url(img/placeholder.png) 0px 0px no-repeat;
+    padding-left: 38px;
+    height: 36px;
+}
+.rwo24 {
+    padding-top: 4px;
+    background: url(img/clock.png) 0px 0px no-repeat;
+    padding-left: 38px;
+    height: 34px;
+}
+.texkarta {
+    font-size: 15px;
+}
+.kartayan {
+    margin-top: 15px;
+}
+.button {
+    margin-top: 15px;
+    display: block;
+    font-size: 16px;
+    color: #1996ce;
+    width: 204px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #1996ce;
+    padding: 4px;
+    text-decoration: none;
+}
+.button:hover  {
+   border: 1px dashed #1996ce;
+}
+#kons a , .perztext{
+  display: inline-block;
+  vertical-align: top;
+}
+#kons p {
+    padding-left: 5px;
+    margin-top: 18px;
+    font-size: 14px;
+}
+/*-----------------------Футер-----------------------*/
+#footer {
+    height: 250px;
+    min-width: 1170px;
+    background: #141b25;
+}
+#foot {
+    width: 1170px;
+    margin: 0 auto;
+}
+#copi {
+    padding: 0;
+    width: 220px;
+    height: 10px;
+    margin: 0px auto;
+    position: relative;
+    top:66px;
+    color: #dedede;
+    font-size: 12px;
+}
+#menuf, #logof, #socf, #mcf {
+    margin-top: 35px;
+    display: inline-block;
+    vertical-align: top;
+}
+#menuf {
+    margin-left: 80px;
+}
+#menuf ul li {
+ list-style: none;
+}
+#menuf ul li a{
+ padding-top: 2px;
+ font-size: 15px;
+ display: block;
+ color: #dedede;
+ text-decoration: none;
+}
+#menuf ul li a:hover {
+ text-decoration: underline;
+}
+#imglg2 {
+    padding-top: 5px;
+    display: block;
+    margin-left: 10px;
+    width: 128px;
+    height: 60px;
+    background: url(img/logo5.png) no-repeat;
+ } 
+ #textl2 {
+    color: #dedede;
+    width: 150px;
+    margin-left: 12px;
+    font-size: 13px;
+ }
+ #socf {
+     margin-left: 100px;
+     width: 230px;
+ }
+ #telf a {
+    position: relative;
+    top: -4px;
+   text-decoration: none;
+   font-size: 24px;
+   color: #dedede;
+ }
+ #sfu img {
+    width: 30px;
+    height: 30px;
+    margin-left: 7px;
+    margin-top: 8px;
+  }
+ .foots {
+ }
+  #telf a:hover{
+   color: #fff;
+ }
+ #mcf {
+    margin-left: 80px;
+ }
+ #mailf a, #time p {
+    color: #dedede;
+ }
+ #mailf a {
+    height: 20px;
+    border-bottom: 1px solid #dedede;
+    text-decoration: none;
+ }
+ #mailf a:hover {
+    border-bottom: none;
+  }
+#adrfu {
+    font-size: 13px;
+    color: #dedede;
+}
+/*-----------------------------Слайд------------------------------*/
+#blockslaid{
+    width:1170px;
+    height: 575px;
+    padding:10px;
+    margin:0 auto;
+}
+#blockslaid h3 {
+    margin: 0;
+     font-weight: 400;
+    text-align: center;
+    font-size:36px;
+    text-transform: uppercase;
+}
+#example {
+    margin: 0px auto;
+    width:1170px;
+    height:450px;
+    position:relative;
+}
+
+#slides {
+    position:absolute;
+    top:15px;
+    z-index:1;
+}
+
+#slides .slide {
+    width:1000px;
+    padding-top:20px; 
+    padding-bottom:20px;      
+}
+
+#slides .next,#slides .prev {
+    position:absolute;
+    top:180px;
+    left:-39px;
+    width:44px;
+    height:43px;
+    display:block;
+    z-index:101;
+}
+
+.slides_container {
+    width:1000px;
+    height:500px;
+    overflow:hidden;
+    position:relative;
+}
+
+#frame {
+    position:absolute;
+    z-index:0;
+    width:1000px;
+    height:500px;
+    top:-3px;
+    left:-80px;
+}
+
+#slides .next {
+    left:1120px;
+} 
+#slides .prev {
+    left:1058px;
+}
+#slides .link {
+    display:block;
+    margin-top:10px;
+    font-weight:800;
+}
+#textsl, #imgsl {
+    display: inline-block;
+    vertical-align: top;
+    height: 408px;
+}
+#textsl {
+    margin-left: 5px;
+    width: 530px;
+    
+}
+#imgsl {
+    width: 440px;
+   
+}
+#textsl h5{
+    margin: 0;
+    padding-top: 0px;
+    padding-bottom: 14px;
+    font-size: 24px;
+    padding-left: 20px;
+}
+.zagsl {
+    font-size: 15px;
+    margin: 0;
+
+    font-weight: 600;
+}
+#textsl p {
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 5px;
+    padding-top: 8px;
+}
+.butlink {
+    font-size: 16px;
+    color: #1996ce;
+    text-decoration: none;
+    border-bottom: 1px dashed #1996ce;
+}
+.butlink:hover {
+       border-bottom: none;
+}
+#danns {
+    margin: 5px auto;
+    width: 1000px;
+
+}
+.posl {
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    height: 25px;
+    
+}
+.kvsim img {
+    height: 25px;
+    width: 25px;
+}
+.kvsim, .kvct {
+    display: inline-block;
+    vertical-align: top;
+}
+.prev a:hover {
+    opacity: .4px;
+}
+/*----------------------------- конец слайд------------------------------*/
+
+.youtube {
+    border: 0;
+    outline: 0;
+}
+
+/*popup*/
+.overlay {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0; top: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 9;
+}
+.popup {
+    display: none;
+    position: fixed;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: auto;
+    width: 342px;
+    height: 480px;
+    background: #1996ce;
+    text-align: center;
+    z-index: 10;
+}
+.popup__title {
+    background: url(img/mailbox1.png) 0px 0px no-repeat;
+    display: block;
+    margin-left: 28px;
+    padding-left: 50px;
+    margin-top: 31px;
+    text-align: left;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+    //border-left: 2px solid #fff;
+    font-weight: 300;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.popup-form {
+    margin-top: 17px;
+}
+.th_popup_overlay {
+  display: none;
+  font-family: 'Open Sans';
+  background: url(img/send.png) 15px 15px no-repeat;
+  background-color: #1996ce;
+  box-sizing: border-box;
+  color: white;
+  font-size: 27px;
+  left: 0;
+  margin: auto;
+  max-width: 800px;
+  padding: 8px 8px;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  top: 20%;
+  z-index: 99999;
+}
+.th_popup_overlay_txt {
+margin-top: 45px;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    color: #fff;
+}
+#lineoverp {
+ height: 158px;
+  max-width: 790px;
+ border: 1px solid #fff;
+
+}
+.popup-form__field, .file-field, .popup-form__btn {
+    width: 270px;
+    height: 42px;
+
+}
+.popup-form__btn {
+    width: 285px;
+    cursor: pointer;
+    background: none;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    padding: 4px;
+    text-decoration: none;
+
+}
+.popup-form__btn:hover {
+   border: 1px dashed #fff
+    
+}
+.popup-form__field {
+    background: none;
+    font-size: 17px;
+    font-weight: 100;
+    color: #ffffff;
+    line-height: 120%;
+    border: 1px solid #fff;
+    padding-left: 13px;
+    margin-bottom: 14px;
+}
+.popup-form__field::-webkit-input-placeholder {color:#ffffff;}
+.popup-form__field::-moz-placeholder          {color:#ffffff;}
+.popup-form__field:-moz-placeholder           {color:#ffffff;}
+.popup-form__field:-ms-input-placeholder      {color:#ffffff;}
+.popup-form__field_text {
+    resize: none;
+    height: 103px;
+    padding: 11px 13px;
+}
+.popup-form__field_text {
+    margin-bottom: 12px;
+}
+.file-field {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+.file-field input, .file-field .file-field__desc {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.file-field input {
+    opacity: 0;
+    cursor: pointer;
+}
+.file-field input:hover + .file-field__desc span {
+    text-decoration: underline;
+}
+.file-field .file-field__desc {
+    z-index: 1;
+    background: #fff;
+}
+.file-field__desc {
+    padding-left: 15px;
+    text-align: left;
+    padding-top: 11px;
+}
+.file-field .file-field__desc > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+.file-field__desc span {
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 100;
+    color: #424242;
+}
+.file > * {
+    display: inline-block;
+    vertical-align: top;
+}
+.file {
+    display: none;
+    margin-top: 8px;
+}
+.file__name {
+    width: 232px;
+    text-align: left;
+    font-weight: 100;
+    font-size: 15px;
+    color: #fdfdfd;
+    line-height: 16px;
+}
+.file__name i {
+    display: block;
+    font-size: 13px;
+}
+.file__delete {
+    position: relative;
+    top: 4px;
+    cursor: pointer;
+}
+.popup-form__btn {
+    font-size: 15px;
+    margin-top: 16px;
+}
+/*end popup*/
+
+@media all and (max-width: 1740px) {
+    .h-phone {
+        bottom: 340px;
+    }
+}
+/*-----------------Политика-----------------------*/
+#checbox {
+    margin: 55px 5px 5px 24px;
+    text-align: left;
+    width: 300px;
+}
+#ic, #textch {
+    display: table-cell;
+    vertical-align: top;
+}
+#ic input {
+    border: 0;
+    outline: 0;
+    background: none;
+    margin-top: -4px;
+}
+#textch {
+    color: #fff;
+    font-size: 12px;
+
+
+}
+#textch a {
+    color: #505d6d;  
+
+
+}
+#textch a:hover {
+    text-decoration: none;
+}
+.headerpol {
+
+    width: 1170px;
+    margin: 25px auto;
+}
+.pls {
+    font-size: 13px;
+    color: #fff;
+}
+/*--------------------------------------Табы---------------------------------*/
+#tab2, #tab3 {position: fixed; }
+
+.menu1 > a,
+.menu1 #tab2:target ~ a:nth-of-type(1),
+.menu1 #tab3:target ~ a:nth-of-type(1),
+.menu1 > .tab1{ padding: 5px;  }
+
+.menu1 > a { 
+    line-height: 28px; 
+    margin-bottom: 10px; 
+    text-decoration: none; 
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    color: #1996ce;
+    border: 1px solid #1996ce;
+}
+.menu1 > a:hover {
+    color: #fff;
+    background: #1996ce;
+}
+#tab2,
+#tab3,
+.menu1 > .tab1,
+.menu1 #tab2:target ~ .tab1:nth-of-type(1),
+.menu1 #tab3:target ~ .tab1:nth-of-type(1) {display: none; }
+
+.menu1 > .tab1:nth-of-type(1),
+.menu1 #tab2:target ~ .tab1:nth-of-type(2),
+.menu1 #tab3:target ~ .tab1:nth-of-type(3) { display: block;  }
+
+
+.tabgo {
+    margin-left: 376px;
+}
+.active { 
+    color: #fff !important;
+    background: #1996ce !important;}
+@media (min-width: 430px) {
+    #fonhead_mob {
+        display: none;
+    }
+   .hero-carousel {
+     display: none;
+   }
+   .hero-carousel2 {
+    display: none;
+  }
+  #blockwork-mob {
+      display: none;
+  }
+}
+@media (max-width: 430px) { 
+    body {
+        font-size: 1em;
+    }
+    header {
+        overflow: hidden;
+        min-width:100%;
+        background: rgba(0, 0, 0, 0) url('img/7+.jpg') repeat-x scroll center top;
+        position: relative;
+        background-size: cover;
+     }
+   #fonhead {
+      display: none;
+    }
+    #fonhead_mob {
+        color: #fff;
+      display: block;
+    }
+    #headmob {
+        background: #00000080;
+     position: fixed;
+     display: flex;
+     top: 0;
+     border: 1px solid #000;
+     width: 100%;
+     justify-content: space-between;
+     z-index: 1;
+     }
+     #headmob > div {
+         padding-top: 8px;
+         display: inline-block;
+         vertical-align: top;
+         margin: 0 auto;
+         border: #1996ce
+     }
+     #phonemob a{
+         text-align: center;
+         font-weight: normal;
+         color: rgb(255, 255, 255);
+         font-size: 20px;
+         text-decoration: none;
+         line-height: 70px;
+     }
+     #burger img {
+         width: 40px;
+     }
+     #textmidmob {
+         padding-top: 120px;
+         width: 80%;
+         margin: 0px auto;
+     }
+     #textmidmob h1 {
+         text-transform: uppercase;
+         font-size: 34px;
+     }
+     #textmidmob p{
+         font-size:1em;
+    }
+    #socmob {
+        padding-top: 25px;
+         text-align: center;
+         margin: 0 auto;
+         width: 42%;
+    }
+    #socmob a img{
+         padding-top: 5px;
+         width: 35px;
+    }
+    #adresmob {
+         padding-top: 25px;
+         margin: 0 auto;
+         width: 84%;
+         font-size: 16px;
+    }
+     #adresmob p {
+        position: relative;
+        left: 24px;
+    }
+    #adresmob p:before {
+        position: absolute;
+        display: block;
+        content: ' ';
+        background-image: url('img/pin.svg');
+        background-size: 20px 20px;
+        height: 20px;
+        width: 20px;
+        left: -24px;
+        
+    }
+    #block1_what .line {
+    margin-top: 25px;
+    }
+    /*----Блок2----*/
+    #block1_what {
+        width: 100%;
+    }
+    #content_what h2{
+        margin: 0;
+        font-weight: 400;
+        text-align: center;
+        padding-left: 14px;
+        font-size:24px;
+        text-transform: uppercase;
+    }
+    .podzg {
+        padding-top: 8px;
+        text-align: center;
+        padding-left: 14px;
+        padding-right: 5px;
+    }
+    #arrow {
+        display: none;
+    }
+     /*----------Слайд----------------*/
+    #whattext {
+        display: none;
+        width: 100%;
+        margin-top: 25px;
+    }
+    .wtbl {
+        width: 100%;
+        margin: 0;
+
+    }
+    .podimg {
+        text-align: center;
+        padding-left: 14px;
+        padding-right: 15px;
+    } 
+    .podimg h3 {
+        text-align: center;
+    }
+
+ /*------Система "Smart Home синий блок-------*/
+ #blockupdop {
+     width: 100%;
+     height: 100%;
+     padding-bottom: 15px;
+}
+ #bordop {
+     height: 100%;
+     width: 95%;
+}
+#updoptext {
+     width: 100%;
+}
+#updoptext h4 {
+    padding-left: 25px;
+}
+#updoptext p {
+    padding-left: 25px;
+    padding-right: 10px;
+}
+#ikonkidop {
+     width: 100%;
+     padding-bottom: 15px;
+     margin-left: 0;
+}
+.ikibl {
+    width: 94px;
+}
+
+/*-------Возможности-------*/
+#vozmbl {
+    display: none;
+}
+
+#blockvozmud {
+    width: 100%;
+}
+#blockvozmud h2 {
+    font-size: 24px;
+    padding-left: 14px;
+    text-align: center;
+}
+.vozm {
+    width: 240px;
+    margin: 15px 0px 0px 68px;
+}
+.vozm a {
+    font-size: 18px;
+}
+.vozm h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/*----------Комплекты------------*/
+
+#blockkomplekt {
+    width: 100%;
+    margin: 0 auto;
+}
+#blockkomplekt h3 {
+    font-size:24px;
+    padding-left: 14px;
+    text-align: center;
+}
+.menu1 > a { 
+    margin-bottom: 10px; 
+    width: 140px;
+    font-size: 14px;
+}
+.tabgo {
+    margin-left: 42px;
+}
+.kmp {
+    width: 100%;
+    height: 500px;   
+}
+.komop1, .komop2, .komop3, .komop4, .komimg {  
+    width: 100%;
+    height: 500px;
+}
+#trxtkom {
+    color: #fff;
+    margin: 8px auto;
+    width: 95%;
+    height: 480px;
+    border: 1px solid #fff;
+}
+.opiskom {
+    margin-top: 10px;
+    margin-left: 0;
+    width: 100%;
+    font-size: 16px;
+   }
+.opiskom ul li {
+    padding-top: 5px;
+ font-size: 16px;
+   }
+.opiskom P {
+    padding-left: 8px;
+
+}
+ .komimg {  
+  display: none;
+}
+.ikonkop {
+    display: none;
+}
+.buttonkom {
+    margin-top: 15px;
+    width:290px;
+    padding: 4px;
+    margin-left: 8px;
+    font-size: 18px;
+}
+.menu1 > a,
+.menu1 #tab2:target ~ a:nth-of-type(1),
+.menu1 #tab3:target ~ a:nth-of-type(1),
+.menu1 > .tab1{ padding: 0px;  }
+.zaglkom {
+    text-transform: uppercase;
+    margin-left: 0px;
+    margin-top: 10px;
+   }
+
+   .zaglkom h6 {
+       font-size: 24px;
+       padding-left: 8px;
+   }
+   .zaglkom h5 {
+       padding-left: 8px;
+   }
+   .ikonkop img {
+       width: 22px;
+       height: 22px;
+      margin-left: 4px;
+      margin-right: 0;
+   }
+   .cenak {
+       font-weight: bold;
+       font-size: 18px;
+   }
+   .predp {
+    font-size: 16px !important;
+  }
+/*------Используем---*/
+   #blokwedo {
+      width: 100%;
+  }
+  #logowedo {
+      width: 100%;
+  }
+  #logowedo img{
+    width: 76px;
+    filter: none;
+    transition: none;
+  }
+  #blokwedo h3 {
+      font-size: 24px;
+  }
+  /*--------------проекты-----------*/
+  #blockslaid {
+      display: none;
+  }
+  /*------------Гарантия---------*/
+  #blockgarant {
+      width: 100%;
+      height: 100%;
+      padding-bottom: 15px;
+      margin: 25px auto;
+  }
+  #garant {
+      width: 95%;
+      height: 100%;
+  }
+  #garanttext {
+      width: 100%;
+      height: 100%;
+  }
+  #garanttext p {
+      padding-left: 25px;
+      padding-right: 10px;
+  }
+  #ikonkigarant {
+      width: 100%;
+      height: 100%;
+      padding-bottom: 15px;
+  }
+  #garanttext ul {
+      width: auto;
+      padding-left: 30px;
+      padding-right: 10px;
+  }
+  .ikg {
+    margin-left: 12px;
+    width: 42%;
+  }
+  #garanttext h4 {
+      padding-left: 25px;
+  }
+/*----------------Контакты-----------*/
+#blockwork {
+    display: none;
+}
+#blockwork-mob {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.boxmob {
+    width:430px;
+}
+#blockwork-mob h3 {
+    margin: 0;
+    font-weight: 400;
+   text-align: center;
+   font-size:24px;
+   text-transform: uppercase;
+}
+p.tes {
+    font-size: 20px;
+    background-size: 20px; 
+    display: block;
+    padding-left: 25px;
+    margin-top: 18px;
+    margin-left: 10px;
+
+}
+.mob1 {
+    background: url('img/clock.png') 0px 0px no-repeat;
+}
+.mob2 {
+    background: url('img/smartphone24.png') 0px 0px no-repeat;
+}
+.mob3 {
+    background: url('img/mail.png') 0px 0px no-repeat;
+}
+.mob4 {
+    background: url('img/placeholder.png') 0px 0px no-repeat;
+}
+.boxmob a {
+    color: #000;
+    text-decoration: none;
+
+}
+.kartamob {
+    width:100%;
+    margin-top: 20px;
+    padding: 0;
+}
+.sotrudnik {
+    width: 100%;
+}
+.sotrudnik img{
+    width: 100%;
+}
+.phonemob {
+    width: 200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.podpismb {
+    margin: 0 auto;
+    position: relative;
+    bottom: 22px;
+    width: 280px;
+    text-align: center;
+    background: #1996ce;
+    font-size: 15px;
+    font-weight: 400;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+}
+.phonemob a {
+    font-size: 18px;
+}
+.namekar {
+    width: 140px;
+}
+/*-----------------------Футер-----------------------*/
+#footer {
+    min-width: 100%;
+    height: 330px;
+    background: #141b25;
+}
+#foot {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+#lmk {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#copi {
+    padding: 0;
+    width: 280px;
+    margin: 15px auto;
+    color: #dedede;
+    font-size: 16px;
+    position: static;
+}
+#mailf {
+  width: 205px;
+  margin: 0 auto;
+
+}
+#logof {
+    margin: 0 auto;
+    padding-top: 14px;
+    padding-left: 8px;
+}
+#socf {
+    display: none;
+}
+#menuf {
+    display: none;
+}
+#logof a {
+  font-size: 14px !important;
+  text-decoration: none;
+  color: silver;
+  margin-top: 15px;
+  display: block;
+  margin-left: 8px;
+}
+#imglg2 {
+    padding-top: 5px;
+    display: block;
+    margin-left: 10px;
+    width: 128px;
+    height: 60px;
+    margin: 0 auto;
+    background: url(img/logo5.png) no-repeat;
+ } 
+ #textl2 {
+     margin: 8px auto;
+     font-size: 14px;
+ }
+ #sfu img {
+    width: 36px;
+    height: 36px;
+    margin-left: 7px;
+    margin-top: 8px;
+  }
+#sfu{
+    margin: 5px auto;
+    width: 100px;
+  }
+  #telf a:hover{
+   color: #fff;
+ }
+ #mcf {
+    margin: 0 auto;
+    /* margin-left: 0px; */
+    /* margin-top: 15px; */
+ }
+ #mailf a, #time p {
+    color: #dedede;
+    font-size: 18px;
+    text-align: center;
+ }
+ #time {
+     margin: 12px auto;
+    width: 220px;
+ }
+ #mailf a {
+    text-align: center;
+    height: 20px;
+    border-bottom: 1px solid #dedede;
+    text-decoration: none;
+ }
+ #mailf a:hover {
+    border-bottom: none;
+  }
+#adrfu {
+    font-size: 13px;
+    color: #dedede;
+}
+/*-------------Форма заявки------------*/
+.popup {
+    width: 95%;
+    height: 450px;
+}
+#checbox {
+    text-align: left;
+    width: 280px;
+}
+#lineoverp {
+    height: 180px;
+   }
+.th_popup_overlay_txt {
+    margin-top: 25px;
+    padding: 8px;
+}
+}
+
+@media (max-width: 320px) { 
+    .hero-carousel__cell2 {
+      height: 505px;
+    }
+    .vozm {
+        margin: 15px 0px 0px 40px;
+    
+    }
+    .tabgo {
+        margin-left: 18px;
+    }
+    .buttonkom {
+        margin-top: 15px;
+        width:250px;
+        padding: 4px;
+        margin-left: 8px;
+        font-size: 15px;
+    }
+    .ikonkop img {
+        width: 20px;
+        height: 20px;
+        margin-left: 1px;
+    }
+    /*------Используем---*/
+     #blokwedo {
+      width: 100%;
+    }
+    #logowedo {
+      width: 100%;
+    }
+    #logowedo img{
+    width: 100px;
+    }
+    #checbox {
+        margin: 25px 5px 5px 5px;
+
+    }
+
+}
