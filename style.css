@@ -1336,8 +1336,8 @@ margin-top: 45px;
    }
    .hero-carousel2 {
     display: none;
-  }
-  #blockwork-mob {
+   }
+   #blockwork-mob {
       display: none;
   }
 }
@@ -1356,11 +1356,11 @@ margin-top: 45px;
       display: none;
     }
     #fonhead_mob {
-        color: #fff;
+      color: #fff;
       display: block;
     }
     #headmob {
-        background: #00000080;
+    background: #00000080;
      position: fixed;
      display: flex;
      top: 0;
@@ -1431,7 +1431,7 @@ margin-top: 45px;
         
     }
     #block1_what .line {
-    margin-top: 25px;
+    margin-top: 10px;
     }
     /*----Блок2----*/
     #block1_what {
@@ -1441,15 +1441,16 @@ margin-top: 45px;
         margin: 0;
         font-weight: 400;
         text-align: center;
-        padding-left: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
         font-size:24px;
         text-transform: uppercase;
     }
     .podzg {
         padding-top: 8px;
-        text-align: center;
-        padding-left: 14px;
-        padding-right: 5px;
+        text-align: left !important;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     #arrow {
         display: none;
@@ -1513,7 +1514,8 @@ margin-top: 45px;
 }
 #blockvozmud h2 {
     font-size: 24px;
-    padding-left: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
 }
 .vozm {
@@ -1536,7 +1538,8 @@ margin-top: 45px;
 }
 #blockkomplekt h3 {
     font-size:24px;
-    padding-left: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
 }
 .menu1 > a { 
@@ -1563,7 +1566,6 @@ margin-top: 45px;
     border: 1px solid #fff;
 }
 .opiskom {
-    margin-top: 10px;
     margin-left: 0;
     width: 100%;
     font-size: 16px;
@@ -1617,7 +1619,7 @@ margin-top: 45px;
        font-size: 18px;
    }
    .predp {
-    font-size: 16px !important;
+    font-size: 14px !important;
   }
 /*------Используем---*/
    #blokwedo {
@@ -1664,7 +1666,7 @@ margin-top: 45px;
   }
   #garanttext ul {
       width: auto;
-      padding-left: 30px;
+      padding-left: 24px;
       padding-right: 10px;
   }
   .ikg {
