@@ -191,7 +191,7 @@ time, mark, audio, video {
     opacity: .99;
     -webkit-transform: scale(1);
     transform: scale(1);
-    overflow:scroll;
+    overflow-y: auto;
 }
 .locked {
     height: 100%;
