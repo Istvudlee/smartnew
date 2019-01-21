@@ -184,7 +184,6 @@ time, mark, audio, video {
     transform: scale(0);
    -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    z-index: 151;
 }
 .activemenumob {
     visibility: visible;
