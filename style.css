@@ -127,7 +127,7 @@ time, mark, audio, video {
 }
  /*-------------------Бургер-----------------*/
  .menuberger {
-    width: 41px;
+    width: 38px;
     height: 2px;
     position: absolute;
     top: 37px;
@@ -184,6 +184,7 @@ time, mark, audio, video {
     transform: scale(0);
    -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+    z-index: 150;
 }
 .activemenumob {
     visibility: visible;
@@ -192,7 +193,7 @@ time, mark, audio, video {
     transform: scale(1);
 }
 .locked {
-    overflow: hidden;
+    //overflow: hidden;
   }
 /*----------Содержимое меню-----------*/
 
@@ -884,7 +885,6 @@ margin: 0 auto;
 }
 .phonemob a {
     padding-top: 2px;
-
     text-decoration: none;
     color: #000;
     display: block;
@@ -898,7 +898,6 @@ margin: 0 auto;
 }
 .phonemob2 a {
     padding-top: 2px;
-
     text-decoration: none;
     color: #000;
     display: block;
@@ -1509,9 +1508,6 @@ margin-top: 45px;
          margin: 0 auto;
          border: #1996ce
      }
-     .menuberger {
-         
-     }
      #burger {
          margin-top: 10px;
          width: 30px;
@@ -2018,6 +2014,9 @@ p.tes {
         width: 20px;
         height: 20px;
         margin-left: 1px;
+    }
+    #phonemob a {
+        font-size: 18px;
     }
     /*------Используем---*/
      #blokwedo {
