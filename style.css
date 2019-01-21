@@ -135,6 +135,7 @@ time, mark, audio, video {
     background: #fff;
     cursor: pointer;
     transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
 
 }
 .menuberger:before, .menuberger:after{
@@ -146,6 +147,7 @@ time, mark, audio, video {
     height: 2px;
     will-change: rotate;
     transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
 
 }
 .menuberger::before {
@@ -160,10 +162,12 @@ time, mark, audio, video {
 .burgeractiv:before {
     top: 0;
     transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
 }
 .burgeractiv:after {
     bottom: 0;
     transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
 /*-------------------Оболочка-----------------*/
 .menumobhead {
