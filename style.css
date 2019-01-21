@@ -193,7 +193,7 @@ time, mark, audio, video {
     transform: scale(1);
 }
 .locked {
-    //overflow: hidden;
+    overflow: hidden;
   }
 /*----------Содержимое меню-----------*/
 
@@ -1499,7 +1499,7 @@ margin-top: 45px;
      border: 1px solid #000;
      width: 100%;
      justify-content: space-between;
-     z-index: 1;
+     z-index: 150;
      }
      #headmob > div {
          padding-top: 8px;
