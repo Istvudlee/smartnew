@@ -1510,8 +1510,8 @@ margin-top: 45px;
      }
      #burger {
          margin-top: 10px;
-         width: 30px;
-         height: 30px;
+         width: 40px;
+         height: 50px;
      }
      #phonemob a{
          text-align: center;
@@ -1520,9 +1520,6 @@ margin-top: 45px;
          font-size: 20px;
          text-decoration: none;
          line-height: 70px;
-     }
-     #burger img {
-         width: 40px;
      }
      #textmidmob {
          padding-top: 100px;
