@@ -193,6 +193,9 @@ time, mark, audio, video {
     transform: scale(1);
 }
 .locked {
+    height: 100%;
+    width: 100%;
+    position: fixed;
     overflow: hidden;
   }
 /*----------Содержимое меню-----------*/
