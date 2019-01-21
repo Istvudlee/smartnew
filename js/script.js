@@ -30,6 +30,11 @@ $(document).ready(function(){
     $('.active').removeClass('active');
         $(this).addClass('active');
     });
+    $('.menuberger').on('click', function(){
+        $(this).toggleClass('burgeractiv');
+        $('.menumobhead').toggleClass ('activemenumob');
+        $("body").toggleClass("locked");
+      });
   /* if (screen.width === 414){
           $(document).ready(function(){
             $('.tabgo').css('margin-left', '68px');
