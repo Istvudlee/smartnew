@@ -127,7 +127,7 @@ time, mark, audio, video {
 }
  /*-------------------Бургер-----------------*/
  .menuberger {
-    width: 31px;
+    width: 41px;
     height: 2px;
     position: absolute;
     top: 37px;
@@ -142,17 +142,17 @@ time, mark, audio, video {
     position: absolute;
     display: block;
     background: #fff;
-    width: 100%;
+    width: 90%;
     height: 2px;
     will-change: rotate;
     transition: all 0.3s ease;
 
 }
 .menuberger::before {
-    top: 10px;
+    top: 12px;
 }
 .menuberger::after {
-    bottom: 10px;
+    bottom: 12px;
 }
 .burgeractiv {
     background: transparent;
