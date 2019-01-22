@@ -30,7 +30,7 @@ $(document).ready(function(){
     $('.active').removeClass('active');
         $(this).addClass('active');
     });
-    $('.menuberger').on('click', function(){
+    $('.burger').on('click', function(){
         $(this).toggleClass('burgeractiv');
         $('.menumobhead').toggleClass ('activemenumob');
         $("body").toggleClass("locked");
