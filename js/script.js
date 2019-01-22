@@ -30,8 +30,8 @@ $(document).ready(function(){
     $('.active').removeClass('active');
         $(this).addClass('active');
     });
-    $('.burger').on('click', function(){
-        $('.menuberger').toggleClass('burgeractiv');
+    $('.menuberger').on('click', function(){
+        $(this).toggleClass('burgeractiv');
         $('.menumobhead').toggleClass ('activemenumob');
         $("body").toggleClass("locked");
       });
