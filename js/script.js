@@ -31,7 +31,7 @@ $(document).ready(function(){
         $(this).addClass('active');
     });
     $('.burger').on('click', function(){
-        $(this).toggleClass('burgeractiv');
+        $('.menuberger').toggleClass('burgeractiv');
         $('.menumobhead').toggleClass ('activemenumob');
         $("body").toggleClass("locked");
       });
