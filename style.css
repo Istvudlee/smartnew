@@ -171,6 +171,7 @@ time, mark, audio, video {
 }
 /*-------------------Оболочка-----------------*/
 .menumobhead {
+    z-index: 10;
     position: fixed;
     width: 100%;
     background: #1996ce;
